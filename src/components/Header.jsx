@@ -5,20 +5,6 @@ import { Link as ScrollLink } from 'react-scroll';
 export default function Header() {
   const [mobileToggle, setMobileToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const [locate, setLocate] = useState(false);
-  const currentURL = window.location.href;
-
-  useEffect(() => {
-    if (currentURL.includes("/project")) {
-      console.log(true);
-      setLocate(true)
-    } else {
-      setLocate(false)
-      console.log(false);
-
-    }
-  }, [currentURL]);
-
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
@@ -33,11 +19,11 @@ export default function Header() {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-
   return (
     <div
-      className={`header-top-fixed one-page-nav ${mobileToggle ? 'menu-open menu-open-desk' : ''
-        } ${scrolled ? 'fixed-header' : ''}`}
+      className={`header-top-fixed one-page-nav ${
+        mobileToggle ? 'menu-open menu-open-desk' : ''
+      } ${scrolled ? 'fixed-header' : ''}`}
     >
       <div className="container">
         <div className="logo">
@@ -53,129 +39,64 @@ export default function Header() {
         {/* / */}
         <ul className="main-menu">
           <li>
-            {locate ?
-              <Link
-                to="/"
-                spy={true}
-                smooth={true}
-                offset={-80}
-                duration={500}
-                onClick={() =>{ setMobileToggle(false)
-                  setLocate(false)}}
-              >
-                Home
-              </Link> :
-
-              <ScrollLink
-                to="home"
-                spy={true}
-                smooth={true}
-                offset={-80}
-                duration={500}
-                onClick={() => setMobileToggle(false)}
-              >
-                Home
-              </ScrollLink>
-
-            }
+            <ScrollLink
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={-80}
+              duration={500}
+              onClick={() => setMobileToggle(false)}
+            >
+              Home
+            </ScrollLink>
           </li>
           <li>
-            {locate ?
-              <Link
-                to="/"
-                spy={true}
-                smooth={true}
-                offset={-80}
-                duration={500}
-                onClick={() =>{ setMobileToggle(false)
-                  setLocate(false)}}
-              >
-                About Me
-              </Link> :
-
-              <ScrollLink
-                to="about"
-                spy={true}
-                smooth={true}
-                offset={-80}
-                duration={500}
-                onClick={() => setMobileToggle(false)}
-              >
-                About Me
-              </ScrollLink>}
+            <ScrollLink
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-80}
+              duration={500}
+              onClick={() => setMobileToggle(false)}
+            >
+              About Me
+            </ScrollLink>
           </li>
           <li>
-            {locate ?
-              <Link
-                to="/project"
-                spy={true}
-                smooth={true}
-                offset={-80}
-                duration={500}
-                onClick={() => setMobileToggle(false)}
-              >
-                Projects
-              </Link> :
-              <ScrollLink
-                to="project"
-                spy={true}
-                smooth={true}
-                offset={-80}
-                duration={500}
-                onClick={() => setMobileToggle(false)}
-              >
-                Projects
-              </ScrollLink>}
+            <ScrollLink
+              to="project"
+              spy={true}
+              smooth={true}
+              offset={-80}
+              duration={500}
+              onClick={() => setMobileToggle(false)}
+            >
+              Projects
+            </ScrollLink>
           </li>
           <li>
-
-            {locate ?
-              <Link
-                to="/"
-                spy={true}
-                smooth={true}
-                offset={-80}
-                duration={500}
-                onClick={() =>{ setMobileToggle(false)
-                  setLocate(false)}}
-              >
-                Services
-              </Link> :
-
-              <ScrollLink
-                to="services"
-                spy={true}
-                smooth={true}
-                offset={-80}
-                duration={500}
-                onClick={() => setMobileToggle(false)}
-              >
-                Services
-              </ScrollLink>}
+            <ScrollLink
+              to="services"
+              spy={true}
+              smooth={true}
+              offset={-80}
+              duration={500}
+              onClick={() => setMobileToggle(false)}
+            >
+              Services
+            </ScrollLink>
           </li>
           <li>
-            {locate ?
-              <Link
-                to="/"
-                spy={true}
-                smooth={true}
-                offset={-80}
-                duration={500}
-                onClick={() =>{ setMobileToggle(false)
-                  setLocate(false)}}
-              >
-                Contact
-              </Link> :
-              <ScrollLink
-                to="contactus"
-                spy={true}
-                smooth={true}
-                offset={-80}
-                duration={500}
-                onClick={() => setMobileToggle(false)}
-              >
-                Contact
-              </ScrollLink>}
+            <ScrollLink
+              to="contactus"
+              spy={true}
+              smooth={true}
+              offset={-80}
+              duration={500}
+              onClick={() => setMobileToggle(false)}
+            >
+              Contact
+            </ScrollLink>
           </li>
         </ul>
         {/* Top Menu */}
@@ -189,7 +110,7 @@ export default function Header() {
             onClick={() => setMobileToggle(false)}
             className="px-btn d-none d-lg-inline-flex"
           >
-            Talk
+            Lets' Talk
           </ScrollLink>
           <button
             className="toggler-menu d-lg-none"

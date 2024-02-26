@@ -9,6 +9,7 @@ export default function ContactForm() {
     message: '',
   });
 
+  // Handler for input field changes
   const handleInputChange = event => {
     const { name, value } = event.target;
     setFormData(prevFormData => ({
@@ -20,16 +21,26 @@ export default function ContactForm() {
   const onSubmit = async event => {
     event.preventDefault();
     setLoading(true);
-    const phoneNumber = '62895358976565';
-    const message = `
-      Name: ${formData.name}
-      Email: ${formData.email}
-      Subject: ${formData.subject}
-      Message: ${formData.message}
-    `;
-    const encodedMessage = encodeURIComponent(message);
-    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
-    window.location.href = whatsappURL;
+    const formData = new FormData(event.target);
+
+    formData.append('access_key', '6d7bc3fc-6190-43c5-8298-89ac5ef7494f');
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const res = await fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      },
+      body: json,
+    }).then(res => res.json());
+
+    if (res.success) {
+      setFormData({ name: '', email: '', subject: '', message: '' });
+      setLoading(false);
+    }
   };
   return (
     <form id="contact-form" onSubmit={onSubmit}>

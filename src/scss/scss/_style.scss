@@ -183,9 +183,10 @@ a {
         font-size: 38px;
       }
     }
-    h3 {
+    h2 {
       color: var(--px-theme);
       font-weight: 700;
+      font-size: 70px;
       text-transform: uppercase;
       margin: 0 0 30px;
       @include down-lg {

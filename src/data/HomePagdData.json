@@ -1,6 +1,6 @@
 {
   "hero": {
-    "imgUrl": "/images/home-banner.png",
+    "imgUrl": "./images/home-banner.png",
     "name": "Jenna Ortega",
     "heading": "Hay! I’m Jenna",
     "typingText": ["I'm a Designer", 1500, "I'm a Developer", 1500],
@@ -23,40 +23,40 @@
   ],
   "brands": [
     {
-      "src": "/images/brand-1.svg",
+      "src": "./images/brand-1.svg",
       "alt": "Logolpsum"
     },
     {
-      "src": "/images/brand-2.svg",
+      "src": "./images/brand-2.svg",
       "alt": "Logolpsum"
     },
     {
-      "src": "/images/brand-1.svg",
+      "src": "./images/brand-1.svg",
       "alt": "Logolpsum"
     },
     {
-      "src": "/images/brand-2.svg",
+      "src": "./images/brand-2.svg",
       "alt": "Logolpsum"
     },
     {
-      "src": "/images/brand-1.svg",
+      "src": "./images/brand-1.svg",
       "alt": "Logolpsum"
     },
     {
-      "src": "/images/brand-2.svg",
+      "src": "./images/brand-2.svg",
       "alt": "Logolpsum"
     },
     {
-      "src": "/images/brand-1.svg",
+      "src": "./images/brand-1.svg",
       "alt": "Logolpsum"
     },
     {
-      "src": "/images/brand-2.svg",
+      "src": "./images/brand-2.svg",
       "alt": "Logolpsum"
     }
   ],
   "about": {
-    "imgSrc": "/images/about-banner.png",
+    "imgSrc": "./images/about-banner.png",
     "miniTitle": "About Us",
     "title": "I AM AVAILABLE FOR <span>UI UX DESIGN</span> PROJECTS",
     "description": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
@@ -84,7 +84,7 @@
     },
     "allProjects": [
       {
-        "thumbUrl": "/images/popup-project-1.jpg",
+        "thumbUrl": "./images/popup-project-1.jpg",
         "title": "Website Design",
         "subTitle": "Web Design, App Design",
         "details": {
@@ -98,7 +98,7 @@
         }
       },
       {
-        "thumbUrl": "/images/popup-project-2.jpg",
+        "thumbUrl": "./images/popup-project-2.jpg",
         "title": "Website Design",
         "subTitle": "Web Design, App Design",
         "details": {
@@ -112,7 +112,7 @@
         }
       },
       {
-        "thumbUrl": "/images/popup-project-3.jpg",
+        "thumbUrl": "./images/popup-project-3.jpg",
         "title": "Dashboard Design",
         "subTitle": "Web Design, App Design",
         "details": {
@@ -126,7 +126,7 @@
         }
       },
       {
-        "thumbUrl": "/images/popup-project-4.jpg",
+        "thumbUrl": "./images/popup-project-4.jpg",
         "title": "Mobile App Design",
         "subTitle": "Web Design, App Design",
         "details": {
@@ -140,7 +140,7 @@
         }
       },
       {
-        "thumbUrl": "/images/popup-project-5.jpg",
+        "thumbUrl": "./images/popup-project-5.jpg",
         "title": "Website Design",
         "subTitle": "Web Design, App Design",
         "details": {
@@ -154,7 +154,7 @@
         }
       },
       {
-        "thumbUrl": "/images/popup-project-6.jpg",
+        "thumbUrl": "./images/popup-project-6.jpg",
         "title": "Website Design",
         "subTitle": "Web Design, App Design",
         "details": {
@@ -176,28 +176,28 @@
     },
     "allService": [
       {
-        "imgUrl": "/images/service-01.jpg",
+        "imgUrl": "./images/service-01.jpg",
         "title": "Website Design",
         "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
         "icon": "bi:brush-fill",
         "ratings": 5
       },
       {
-        "imgUrl": "/images/service-02.jpg",
+        "imgUrl": "./images/service-02.jpg",
         "title": "Website Design",
         "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
         "icon": "bi:code-square",
         "ratings": 4.5
       },
       {
-        "imgUrl": "/images/service-03.jpg",
+        "imgUrl": "./images/service-03.jpg",
         "title": "SEO Marketing",
         "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
         "icon": "bi:speedometer2",
         "ratings": 5
       },
       {
-        "imgUrl": "/images/service-04.jpg",
+        "imgUrl": "./images/service-04.jpg",
         "title": "Graphic Design",
         "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
         "icon": "bi:palette",
@@ -245,19 +245,19 @@
     "allTestimonial": [
       {
         "reviewText": "Donec tellus sem, tempor ac purus a, porttitor lobortis purus. Etiam quis nisl eget ex pulvinar consectetur. Suspendisse potenti. Cras non elementum risus. Fusce massa tellus, consequat a rutrum et, aliquam a lacus. Quisque viverra egestas tincidunt. Nunc nec nisi sed enim consectetur ullamcorper. Vestibulum at neque tortor. Pellentesque urna enim, ultricies at tortor eu, elementum egestas leo. In hac habitasse platea dictumst.",
-        "avatarImg": "/images/avatar-1.jpg",
+        "avatarImg": "./images/avatar-1.jpg",
         "avatarName": "Pamela Anders",
         "avatarCompany": "Company Name"
       },
       {
         "reviewText": "Donec tellus sem, tempor ac purus a, porttitor lobortis purus. Etiam quis nisl eget ex pulvinar consectetur. Suspendisse potenti. Cras non elementum risus. Fusce massa tellus, consequat a rutrum et, aliquam a lacus. Quisque viverra egestas tincidunt. Nunc nec nisi sed enim consectetur ullamcorper. Vestibulum at neque tortor. Pellentesque urna enim, ultricies at tortor eu, elementum egestas leo. In hac habitasse platea dictumst.",
-        "avatarImg": "/images/avatar-2.jpg",
+        "avatarImg": "./images/avatar-2.jpg",
         "avatarName": "Pamela Anders",
         "avatarCompany": "Company Name"
       },
       {
         "reviewText": "Donec tellus sem, tempor ac purus a, porttitor lobortis purus. Etiam quis nisl eget ex pulvinar consectetur. Suspendisse potenti. Cras non elementum risus. Fusce massa tellus, consequat a rutrum et, aliquam a lacus. Quisque viverra egestas tincidunt. Nunc nec nisi sed enim consectetur ullamcorper. Vestibulum at neque tortor. Pellentesque urna enim, ultricies at tortor eu, elementum egestas leo. In hac habitasse platea dictumst.",
-        "avatarImg": "/images/avatar-3.jpg",
+        "avatarImg": "./images/avatar-3.jpg",
         "avatarName": "Pamela Anders",
         "avatarCompany": "Company Name"
       }
@@ -268,7 +268,7 @@
       "title": "Let’s Discuss Your Project",
       "subTitle": "Always available for freelancing if the right project comes along, Feel free to contact me."
     },
-    "contactImg": "/images/contact-us.png",
+    "contactImg": "./images/contact-us.png",
     "contactInfo": [
       { "title": "Write an e-mail", "email": "sample@domain.com" },
       { "title": "write an e-mail", "tel": "+044 9696 9696 3636" }

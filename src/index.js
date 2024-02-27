@@ -9,7 +9,7 @@ import './scss/style.scss';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename={window.location.pathname || ""}>
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </React.StrictMode>,

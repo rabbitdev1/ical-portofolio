@@ -50,8 +50,8 @@ export default function Brands({ data }) {
         <Slider {...settings} className="slider-gap-50">
           {data.map((item, index) => (
             <div key={index}>
-              <div className="pt-3 pb-3 text-center d-flex align-items-center justify-content-center w-100">
-                <img src={item.src} alt={item.alt} className="w-100" />
+              <div className="p-3 text-center d-flex  align-items-center justify-content-center w-100">
+                <img src={item.src} alt={item.alt} className="w-100" style={{ filter:  'brightness(0) invert(1)' }} />
               </div>
             </div>
           ))}

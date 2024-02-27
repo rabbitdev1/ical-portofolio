@@ -1,10 +1,17 @@
 {
   "hero": {
-    "imgUrl": "./images/home-banner.png",
-    "name": "Jenna Ortega",
-    "heading": "Hay! I’m Jenna",
-    "typingText": ["I'm a Designer", 1500, "I'm a Developer", 1500],
-    "description": "Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment.",
+    "imgUrl": "/images/home-banner.png",
+    "name": "Rizal Sujana",
+    "heading": "Hello! I’m Ical",
+    "typingText": [
+      "I'm a Front End Developer",
+      3000,
+      "I'm a Back End Developer",
+      3000,
+      "I'm a UI/UX Designer",
+      3000
+    ],
+    "description": "Turning Vision into Reality Through Code and Design.",
     "btnText": "Get in touch",
     "btnUrl": "contactus"
   },
@@ -12,66 +19,67 @@
     {
       "icon": "fa-brands:facebook-f",
       "iconBgClass": "facebook",
-      "href": "/"
+      "href": "https://web.facebook.com/rizal.sujana.7/"
     },
-    { "icon": "fa-brands:dribbble", "iconBgClass": "dribbble", "href": "/" },
+    {
+      "icon": "fa-brands:instagram",
+      "iconBgClass": "instagram",
+      "href": "https://www.instagram.com/ical_lucifer/"
+    },
     {
       "icon": "fa-brands:linkedin-in",
       "iconBgClass": "linkedin",
-      "href": "/"
+      "href": "https://www.linkedin.com/in/rizal-sujana/"
+    },
+    {
+      "icon": "fa-brands:github",
+      "iconBgClass": "github",
+      "href": "https://github.com/Rabbitdev1/"
     }
   ],
   "brands": [
     {
-      "src": "./images/brand-1.svg",
-      "alt": "Logolpsum"
+      "src": "/images/brand-2.png",
+      "alt": "2"
     },
     {
-      "src": "./images/brand-2.svg",
-      "alt": "Logolpsum"
+      "src": "/images/brand-3.png",
+      "alt": "3"
     },
     {
-      "src": "./images/brand-1.svg",
-      "alt": "Logolpsum"
+      "src": "/images/brand-7.png",
+      "alt": "7"
     },
     {
-      "src": "./images/brand-2.svg",
-      "alt": "Logolpsum"
+      "src": "/images/brand-2.png",
+      "alt": "2"
     },
     {
-      "src": "./images/brand-1.svg",
-      "alt": "Logolpsum"
+      "src": "/images/brand-3.png",
+      "alt": "3"
     },
     {
-      "src": "./images/brand-2.svg",
-      "alt": "Logolpsum"
-    },
-    {
-      "src": "./images/brand-1.svg",
-      "alt": "Logolpsum"
-    },
-    {
-      "src": "./images/brand-2.svg",
-      "alt": "Logolpsum"
+      "src": "/images/brand-7.png",
+      "alt": "7"
     }
   ],
   "about": {
-    "imgSrc": "./images/about-banner.png",
+    "imgSrc": "/images/about-banner.png",
     "miniTitle": "About Us",
-    "title": "I AM AVAILABLE FOR <span>UI UX DESIGN</span> PROJECTS",
-    "description": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+    "title": "I AM AVAILABLE FOR <span>FRONT END DEVELOPER</span> PROJECTS",
+    "description": "Known by my real name Rizal Sujana, is an extraordinary talent in the world of web design and development. As a hardworking and dedicated student, I`m has shown exceptional proficiency in mastering both front-end and back-end aspects, as well as UI/UX design, demonstrating that learning and evolving are never-ending processes.",
     "funfacts": [
       {
-        "title": "Google Review",
-        "number": 280
+        "title": "User Review",
+        "number": 26
       },
       {
         "title": "Years Experience",
-        "number": 15
+        "number": 1.5
       },
       {
-        "title": "Awward Winning",
-        "number": 49
+        "title": "Go Release",
+        "number": 14
       }
     ],
     "btnText": "Get in touch",
@@ -84,87 +92,73 @@
     },
     "allProjects": [
       {
-        "thumbUrl": "./images/popup-project-1.jpg",
-        "title": "Website Design",
-        "subTitle": "Web Design, App Design",
+        "thumbUrl": "/images/popup-project-2.png",
+        "title": "Care.n ",
+        "subTitle": "Find best Freelancer",
         "details": {
-          "title": "Website Design for Marketing Agency Startup",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "title": "Care.n - Find best Freelancer",
+          "description": "Care.n is a premier platform dedicated to connecting businesses and individuals with top-tier freelancers from various fields. Our platform simplifies the process of finding the right freelance talent for your specific needs, whether it's for a short-term project or a long-term collaboration. With a focus on quality and reliability, Care.n offers a seamless, user-friendly experience, ensuring that clients can easily navigate through a diverse pool of skilled professionals. Our service is designed to accommodate all types of projects, from web and app development to creative design and digital marketing. Built on the robust React JS framework, our platform guarantees a smooth and responsive experience across all devices, making it accessible anytime, anywhere. Based in Indonesia, Care.n is proud to serve both local and international clients, making it easier than ever to secure the freelance expertise you need to drive your projects forward. Discover the ideal freelancer for your next project on Care.n, where talent meets opportunity.",
           "type": "Website",
-          "langages": "PHP, HTML, CSS, JS",
-          "platform": "WordPress",
-          "country": "USA",
-          "url": "www.example.com"
+          "langages": "JavaScript (JS), Cascading Style Sheets (CSS)",
+          "platform": "Developed using Vue JS, indicating a modern, responsive design likely optimized for both mobile and desktop devices.",
+          "country": "Indonesia",
+          "url": "https://caren.id/"
         }
       },
       {
-        "thumbUrl": "./images/popup-project-2.jpg",
-        "title": "Website Design",
-        "subTitle": "Web Design, App Design",
+        "thumbUrl": "/images/popup-project-3.png",
+        "title": "Care.n ",
+        "subTitle": "Ultimate AI Generator Chatbot Assistan",
         "details": {
-          "title": "Website Design for Marketing Agency Startup",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "title": "Care.n - Ultimate AI Generator Chatbot Assistan",
+          "description": "Care.n is at the forefront of AI technology, offering an advanced platform designed to empower businesses and individuals with state-of-the-art AI chatbot assistants. Our cutting-edge solution leverages the power of artificial intelligence to provide highly intelligent, responsive, and personalized chatbot experiences. These AI assistants are capable of handling a wide range of tasks, from customer service inquiries and support to engaging in complex conversations, ensuring users receive instant, efficient assistance. Built on a robust framework and utilizing the latest in AI developments, our platform ensures seamless integration and a user-friendly interface, making it accessible on all devices at any time. Based in Indonesia, Care.n is committed to delivering innovative AI solutions to both local and international clients, enhancing the way businesses interact with their customers. Explore the potential of AI with Care.n's Ultimate AI Generator Chatbot Assistant and revolutionize your customer engagement strategy.",
           "type": "Website",
-          "langages": "PHP, HTML, CSS, JS",
-          "platform": "WordPress",
-          "country": "USA",
-          "url": "www.example.com"
+          "langages": "JavaScript (JS), Cascading Style Sheets (CSS)",
+          "platform": "Developed using toast, indicating a modern, responsive design likely optimized for both mobile and desktop devices.",
+          "country": "Indonesia",
+          "url": "https://ai.caren.id/"
         }
       },
       {
-        "thumbUrl": "./images/popup-project-3.jpg",
-        "title": "Dashboard Design",
-        "subTitle": "Web Design, App Design",
+        "thumbUrl": "/images/popup-project-4.png",
+        "title": "Nextopup",
+        "subTitle": "Topup Game Terpercaya",
         "details": {
-          "title": "Website Design for Marketing Agency Startup",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "title": "Nextopup - Topup Game Terpercaya",
+          "description": "Nextopup is the go-to destination for gamers looking for a reliable and secure platform to purchase game items and credits. Our service caters to a wide range of popular games, offering everything from in-game currency to exclusive items, ensuring that gamers can enhance their gaming experience effortlessly. With a commitment to trust and customer satisfaction, Nextopup provides a seamless and user-friendly process for topping up your favorite games. Our platform is built on the latest React JS framework, delivering a responsive and intuitive interface that works flawlessly across both mobile and desktop devices. Based in Indonesia, Nextopup serves a global community of gamers, providing instant access to game top-ups anytime, anywhere. Whether you're looking to gain an edge in your favorite game or seeking rare items, Nextopup is your trusted partner in the gaming world.",
           "type": "Website",
-          "langages": "PHP, HTML, CSS, JS",
-          "platform": "WordPress",
-          "country": "USA",
-          "url": "www.example.com"
+          "langages": "JavaScript (JS), Cascading Style Sheets (CSS)",
+          "platform": "Developed using React JS, indicating a modern, responsive design likely optimized for both mobile and desktop devices.",
+          "country": "Indonesia",
+          "url": "https://react.nextopup.com/"
         }
       },
       {
-        "thumbUrl": "./images/popup-project-4.jpg",
-        "title": "Mobile App Design",
-        "subTitle": "Web Design, App Design",
+        "thumbUrl": "/images/popup-project-6.png",
+        "title": "Kerjainsmm",
+        "subTitle": "Dapatkan keuntungan bersama Kerjainsmm Tanpa biaya sepersenpun!",
         "details": {
-          "title": "Website Design for Marketing Agency Startup",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "title": "Kerjainsmm - Dapatkan keuntungan bersama Kerjainsmm Tanpa biaya sepersenpun!",
+          "description": "Kerjainsmm offers an easy way for you to earn money without any cost. As a social media marketing platform designed specifically for Indonesian freelancers, Kerjainsmm allows you to join and start earning immediately. The process is simple: complete tasks assigned by Kerjainsmm in just 20 seconds, and you'll earn a balance that can be conveniently withdrawn to your bank account or e-wallet, all without any investment required.",
           "type": "Website",
-          "langages": "PHP, HTML, CSS, JS",
-          "platform": "WordPress",
-          "country": "USA",
-          "url": "www.example.com"
+          "langages": "JavaScript (JS), Cascading Style Sheets (CSS)",
+          "platform": "Developed using React JS, indicating a modern, responsive design likely optimized for both mobile and desktop devices.",
+          "country": "Indonesia",
+          "url": "https://kerjainsmm.com/"
         }
       },
       {
-        "thumbUrl": "./images/popup-project-5.jpg",
-        "title": "Website Design",
-        "subTitle": "Web Design, App Design",
+        "thumbUrl": "/images/popup-project-7.png",
+        "title": "Mobile Game-Based Learning K5T",
+        "subTitle": "Based Learning K5T",
         "details": {
-          "title": "Website Design for Marketing Agency Startup",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "type": "Website",
-          "langages": "PHP, HTML, CSS, JS",
-          "platform": "WordPress",
-          "country": "USA",
-          "url": "www.example.com"
-        }
-      },
-      {
-        "thumbUrl": "./images/popup-project-6.jpg",
-        "title": "Website Design",
-        "subTitle": "Web Design, App Design",
-        "details": {
-          "title": "Website Design for Marketing Agency Startup",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "type": "Website",
-          "langages": "PHP, HTML, CSS, JS",
-          "platform": "WordPress",
-          "country": "USA",
-          "url": "www.example.com"
+          "title": "Mobile Game-Based Learning K5T",
+          "description": "Mobile Game-Based Learning (MGBL) merupakan Serious Game yakni game edukasi yang diciptakan dengan fungsi utama sebagai media pendidikan dan pembelajaran, di samping memiliki fungsi sebagai media hiburan. MGBL K5T8ST1 adalah MGBL untuk pembelajaran Tematik Terpadu kelas 5 tema 8 subtema 1 (Manusia, Lingkungan, dan Budaya). MGBL Tematik Terpadu berbeda dengan MGBL biasa yang umumnya hanya mengusung satu mata pelajaran seperti Matematika, IPA, IPS, PPKn, B.Indonesia, dan SBDP. Adapun MGBL Tematik Terpadu berdasarkan pada tema atau subtema yang mengkoneksikan dan mengintegrasikan berbagai muatan mata pelajaran yang sesuai.",
+           "type": "Game Flatform",
+          "langages": "Construct 2 Language",
+          "platform": "Developed using Construct 2, indicating a modern, responsive design likely optimized for both mobile and desktop devices.",
+          "country": "Indonesia",
+          "url": "https://play.google.com/store/apps/details?id=com.rabbitdev.mbgl"
         }
       }
     ]
@@ -172,34 +166,34 @@
   "service": {
     "sectionHeading": {
       "miniTitle": "SERVICES",
-      "title": "Design <span>services</span> I am providing"
+      "title": "Web <span>services</span> I am providing"
     },
     "allService": [
       {
-        "imgUrl": "./images/service-01.jpg",
-        "title": "Website Design",
-        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
+        "imgUrl": "/images/service-01.jpg",
+        "title": "Website Design UI/UX",
+        "subTitle": "I offer UI/UX design services for websites, focusing on creating engaging and user-friendly experiences. We ensure that your website's design will leave a lasting impression on your visitors.",
         "icon": "bi:brush-fill",
-        "ratings": 5
+        "ratings": 4
       },
       {
-        "imgUrl": "./images/service-02.jpg",
-        "title": "Website Design",
-        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
+        "imgUrl": "/images/service-02.jpg",
+        "title": "Website Front-end Developer        ",
+        "subTitle": "I also excel as a website front-end developer. I will transform the UI design into interactive and responsive code, ensuring that your website functions smoothly across various devices.",
         "icon": "bi:code-square",
-        "ratings": 4.5
-      },
-      {
-        "imgUrl": "./images/service-03.jpg",
-        "title": "SEO Marketing",
-        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
-        "icon": "bi:speedometer2",
         "ratings": 5
       },
       {
-        "imgUrl": "./images/service-04.jpg",
-        "title": "Graphic Design",
-        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
+        "imgUrl": "/images/service-03.jpg",
+        "title": "Website Back-end Developer",
+        "subTitle": "Additionally, I can assist you with website back-end development. I will create the systems that support your website's functionality, including database management and server logic.",
+        "icon": "bi:speedometer2",
+        "ratings": 3
+      },
+      {
+        "imgUrl": "/images/service-04.jpg",
+        "title": "Mobile Front-end Developer        ",
+        "subTitle": "If you require front-end development for mobile applications, I also have experience in this area. I will turn your UI design into a compelling and high-performance mobile application.",
         "icon": "bi:palette",
         "ratings": 5
       }
@@ -213,53 +207,65 @@
     "allExperience": [
       {
         "designation": "Front-end Developer",
-        "company": "WELAB | REMOTE",
-        "duration": "JAN 2019 - PRESENT",
+        "company": "Rabbitdev | Freelancer",
+        "duration": "JAN 2022 - PRESENT",
         "jobType": "Full time",
         "companyTitle": "About Company",
-        "companyDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ."
+        "companyDescription": "Rabbitdev is a dynamic and innovative remote-based tech company that specializes in creating cutting-edge web applications and digital experiences. As a Front-end Developer, my role involves crafting responsive and user-friendly web interfaces, collaborating with cross-functional teams, and leveraging the latest front-end technologies to deliver exceptional user experiences.\n\nIn this role, I have had the opportunity to work on a diverse range of projects, from e-commerce platforms to interactive web applications. I am passionate about staying up-to-date with the latest industry trends and best practices to ensure that our projects are at the forefront of web development innovation."
       },
       {
-        "designation": "Front-end Developer",
-        "company": "WELAB | REMOTE",
-        "duration": "JAN 2019 - PRESENT",
+        "designation": "Admin Marketplace",
+        "company": "Shokid | ONLINE KAOS MUSLIM",
+        "duration": "MAR 2020 - AUG 2021",
         "jobType": "Full time",
-        "companyTitle": "About Company",
-        "companyDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ."
+        "companyTitle": "About the Company",
+        "companyDescription": "Shokid | ONLINE KAOS MUSLIM is a leading online marketplace specializing in providing a diverse range of high-quality Muslim clothing. As an Admin Marketplace professional, I played a vital role in ensuring the smooth operation and growth of the platform. My responsibilities included managing vendor relationships, optimizing product listings, and providing outstanding support to both vendors and customers within the Muslim clothing niche.\n\nDuring my tenure at Shokid | ONLINE KAOS MUSLIM, I had the privilege of collaborating with a diverse group of vendors, contributing to the expansion of the marketplace's Muslim clothing catalog, and enhancing the overall shopping experience for our valued customers."
       },
       {
-        "designation": "Front-end Developer",
-        "company": "WELAB | REMOTE",
-        "duration": "JAN 2019 - PRESENT",
+        "designation": "Mobile Front-end Developer",
+        "company": "Zodaguard | Point Gateway",
+        "duration": "JAN 2019 - MAR 2020",
         "jobType": "Full time",
-        "companyTitle": "About Company",
-        "companyDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ."
+        "companyTitle": "About the Company",
+        "companyDescription": "Zodaguard  is an innovative startup that operates as a points gateway for customers when they purchase food from collaborating establishments. Customers earn points with every purchase, and these points can be redeemed for exclusive merchandise and rewards.\n\nAs a Mobile Front-end Developer at Zodaguard, I played a key role in developing the mobile application that allowed customers to easily accumulate and redeem their points. This involved creating a user-friendly and visually appealing interface, integrating point tracking features, and ensuring a seamless user experience.\n\nWorking at Zodaguard provided me with the opportunity to contribute to a unique and rewarding system that incentivizes customer loyalty while enhancing their overall dining experience. I am proud to have been a part of a team dedicated to delivering innovative solutions to our customers and collaborating partners."
+      }
+    ]
+  },
+  "studying": {
+    "sectionHeading": {
+      "miniTitle": "Education",
+      "title": "My <span>Education</span> History"
+    },
+    "allExperience": [
+      {
+        "designation": "Bachelor of Computer Engineering",
+        "company": "Sekolah Tinggi Teknologi Bandung",
+        "duration": "AGS 2021 - Present",
+        "jobType": "Progress",
+        "companyTitle": "About University",
+        "companyDescription": "Sekolah Tinggi Teknologi Bandung (STTB), founded in 1991 by ITB alumni, aspires to be a nationally competitive institution by 2025. It offers programs in Industrial Engineering, Computer Engineering, Visual Communication Design, and Digital Business. STTB adapts its curriculum to industry needs and has gained trust with students from diverse regions, including international ones like Malaysia, Qatar, and Timor Leste. Located in Bandung at Jl. Soekarno Hatta No. 378, STTB aims to produce skilled graduates with an entrepreneurial spirit."
+      },
+      {
+        "designation": "High School - Multimedia",
+        "company": "SMKN 4 Garut",
+        "duration": "JUL 2017 - APR 2019",
+        "jobType": "Graduate",
+        "companyTitle": "About School",
+        "companyDescription": "SMK Negeri 4 Garut has a long history, starting in 1968 under the name STM Negeri Leles, which has evolved into the institution we now know as SMK Negeri 4 Garut. Initially, it focused on the Agribusiness and Agrotechnology fields. Over time, it expanded to include Competency Programs in Technology and Engineering, as well as Information and Communication Technology (ICT). This growth has attracted a growing number of students, reaching 1,874 students at the beginning of the 2017/2018 academic year."
       }
     ]
   },
   "testimonial": {
     "sectionHeading": {
       "miniTitle": "Testimonial",
-      "title": "Over <span>8,000+</span> <br /> PEOPLE TRUST ME"
+      "title": "Over <span>54+</span> <br /> PEOPLE TRUST ME"
     },
     "allTestimonial": [
       {
-        "reviewText": "Donec tellus sem, tempor ac purus a, porttitor lobortis purus. Etiam quis nisl eget ex pulvinar consectetur. Suspendisse potenti. Cras non elementum risus. Fusce massa tellus, consequat a rutrum et, aliquam a lacus. Quisque viverra egestas tincidunt. Nunc nec nisi sed enim consectetur ullamcorper. Vestibulum at neque tortor. Pellentesque urna enim, ultricies at tortor eu, elementum egestas leo. In hac habitasse platea dictumst.",
-        "avatarImg": "./images/avatar-1.jpg",
-        "avatarName": "Pamela Anders",
-        "avatarCompany": "Company Name"
-      },
-      {
-        "reviewText": "Donec tellus sem, tempor ac purus a, porttitor lobortis purus. Etiam quis nisl eget ex pulvinar consectetur. Suspendisse potenti. Cras non elementum risus. Fusce massa tellus, consequat a rutrum et, aliquam a lacus. Quisque viverra egestas tincidunt. Nunc nec nisi sed enim consectetur ullamcorper. Vestibulum at neque tortor. Pellentesque urna enim, ultricies at tortor eu, elementum egestas leo. In hac habitasse platea dictumst.",
-        "avatarImg": "./images/avatar-2.jpg",
-        "avatarName": "Pamela Anders",
-        "avatarCompany": "Company Name"
-      },
-      {
-        "reviewText": "Donec tellus sem, tempor ac purus a, porttitor lobortis purus. Etiam quis nisl eget ex pulvinar consectetur. Suspendisse potenti. Cras non elementum risus. Fusce massa tellus, consequat a rutrum et, aliquam a lacus. Quisque viverra egestas tincidunt. Nunc nec nisi sed enim consectetur ullamcorper. Vestibulum at neque tortor. Pellentesque urna enim, ultricies at tortor eu, elementum egestas leo. In hac habitasse platea dictumst.",
-        "avatarImg": "./images/avatar-3.jpg",
-        "avatarName": "Pamela Anders",
-        "avatarCompany": "Company Name"
+        "reviewText": "Saya sangat puas dengan pembuatan website yang telah dilakukan. Website yang Anda buat memiliki tampilan yang menarik dan fungsionalitas yang sangat membantu. Saya benar-benar terkesan dengan kualitas pekerjaan Anda. Tim Anda bekerja dengan cepat dan profesional. Terima kasih banyak atas upaya keras Anda dalam memastikan bahwa website kami sesuai dengan harapan kami. Saya sangat merekomendasikan layanan Anda kepada siapa saja yang membutuhkan pembuatan website berkualitas tinggi.",
+        "avatarImg": "/images/avatar-1.jpg",
+        "avatarName": "Indra Kusuma",
+        "avatarCompany": "Jenny Management"
       }
     ]
   },
@@ -268,10 +274,10 @@
       "title": "Let’s Discuss Your Project",
       "subTitle": "Always available for freelancing if the right project comes along, Feel free to contact me."
     },
-    "contactImg": "./images/contact-us.png",
+    "contactImg": "/images/about-banner.png",
     "contactInfo": [
-      { "title": "Write an e-mail", "email": "sample@domain.com" },
-      { "title": "write an e-mail", "tel": "+044 9696 9696 3636" }
+      { "title": "Write an e-mail", "email": "zalsujana07@gmail.com" },
+      { "title": "write an Whatsapp ", "tel": "+62 xxxxxxxxx" }
     ]
   }
 }

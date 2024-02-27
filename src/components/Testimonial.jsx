@@ -18,10 +18,10 @@ export default function Testimonial({ data }) {
   return (
     <section className="section effect-section pb-0">
       <div className="effect-3">
-        <img src="/images/effect-3.svg" title alt="" />
+        <img src="./images/effect-3.svg" title alt="" />
       </div>
       <div className="effect-4">
-        <img src="/images/effect-4.svg" title alt="" />
+        <img src="./images/effect-4.svg" title alt="" />
       </div>
       <div className="container">
         <SectionHeading

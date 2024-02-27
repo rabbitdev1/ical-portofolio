@@ -1,6 +1,6 @@
 {
   "hero": {
-    "imgUrl": "/images/home-banner.png",
+    "imgUrl": "./images/home-banner.png",
     "name": "Rizal Sujana",
     "heading": "Hello! I’m Ical",
     "typingText": [
@@ -39,32 +39,32 @@
   ],
   "brands": [
     {
-      "src": "/images/brand-2.png",
+      "src": "./images/brand-2.png",
       "alt": "2"
     },
     {
-      "src": "/images/brand-3.png",
+      "src": "./images/brand-3.png",
       "alt": "3"
     },
     {
-      "src": "/images/brand-7.png",
+      "src": "./images/brand-7.png",
       "alt": "7"
     },
     {
-      "src": "/images/brand-2.png",
+      "src": "./images/brand-2.png",
       "alt": "2"
     },
     {
-      "src": "/images/brand-3.png",
+      "src": "./images/brand-3.png",
       "alt": "3"
     },
     {
-      "src": "/images/brand-7.png",
+      "src": "./images/brand-7.png",
       "alt": "7"
     }
   ],
   "about": {
-    "imgSrc": "/images/about-banner.png",
+    "imgSrc": "./images/about-banner.png",
     "miniTitle": "About Us",
     "title": "I AM AVAILABLE FOR <span>FRONT END DEVELOPER</span> PROJECTS",
     "description": "Known by my real name Rizal Sujana, is an extraordinary talent in the world of web design and development. As a hardworking and dedicated student, I`m has shown exceptional proficiency in mastering both front-end and back-end aspects, as well as UI/UX design, demonstrating that learning and evolving are never-ending processes.",
@@ -92,7 +92,7 @@
     },
     "allProjects": [
       {
-        "thumbUrl": "/images/popup-project-2.png",
+        "thumbUrl": "./images/popup-project-2.png",
         "title": "Care.n ",
         "subTitle": "Find best Freelancer",
         "details": {
@@ -106,7 +106,7 @@
         }
       },
       {
-        "thumbUrl": "/images/popup-project-3.png",
+        "thumbUrl": "./images/popup-project-3.png",
         "title": "Care.n ",
         "subTitle": "Ultimate AI Generator Chatbot Assistan",
         "details": {
@@ -120,7 +120,7 @@
         }
       },
       {
-        "thumbUrl": "/images/popup-project-4.png",
+        "thumbUrl": "./images/popup-project-4.png",
         "title": "Nextopup",
         "subTitle": "Topup Game Terpercaya",
         "details": {
@@ -134,7 +134,7 @@
         }
       },
       {
-        "thumbUrl": "/images/popup-project-6.png",
+        "thumbUrl": "./images/popup-project-6.png",
         "title": "Kerjainsmm",
         "subTitle": "Dapatkan keuntungan bersama Kerjainsmm Tanpa biaya sepersenpun!",
         "details": {
@@ -148,7 +148,7 @@
         }
       },
       {
-        "thumbUrl": "/images/popup-project-7.png",
+        "thumbUrl": "./images/popup-project-7.png",
         "title": "Mobile Game-Based Learning K5T",
         "subTitle": "Based Learning K5T",
         "details": {
@@ -170,28 +170,28 @@
     },
     "allService": [
       {
-        "imgUrl": "/images/service-01.jpg",
+        "imgUrl": "./images/service-01.jpg",
         "title": "Website Design UI/UX",
         "subTitle": "I offer UI/UX design services for websites, focusing on creating engaging and user-friendly experiences. We ensure that your website's design will leave a lasting impression on your visitors.",
         "icon": "bi:brush-fill",
         "ratings": 4
       },
       {
-        "imgUrl": "/images/service-02.jpg",
+        "imgUrl": "./images/service-02.jpg",
         "title": "Website Front-end Developer        ",
         "subTitle": "I also excel as a website front-end developer. I will transform the UI design into interactive and responsive code, ensuring that your website functions smoothly across various devices.",
         "icon": "bi:code-square",
         "ratings": 5
       },
       {
-        "imgUrl": "/images/service-03.jpg",
+        "imgUrl": "./images/service-03.jpg",
         "title": "Website Back-end Developer",
         "subTitle": "Additionally, I can assist you with website back-end development. I will create the systems that support your website's functionality, including database management and server logic.",
         "icon": "bi:speedometer2",
         "ratings": 3
       },
       {
-        "imgUrl": "/images/service-04.jpg",
+        "imgUrl": "./images/service-04.jpg",
         "title": "Mobile Front-end Developer        ",
         "subTitle": "If you require front-end development for mobile applications, I also have experience in this area. I will turn your UI design into a compelling and high-performance mobile application.",
         "icon": "bi:palette",
@@ -263,7 +263,7 @@
     "allTestimonial": [
       {
         "reviewText": "Saya sangat puas dengan pembuatan website yang telah dilakukan. Website yang Anda buat memiliki tampilan yang menarik dan fungsionalitas yang sangat membantu. Saya benar-benar terkesan dengan kualitas pekerjaan Anda. Tim Anda bekerja dengan cepat dan profesional. Terima kasih banyak atas upaya keras Anda dalam memastikan bahwa website kami sesuai dengan harapan kami. Saya sangat merekomendasikan layanan Anda kepada siapa saja yang membutuhkan pembuatan website berkualitas tinggi.",
-        "avatarImg": "/images/avatar-1.jpg",
+        "avatarImg": "./images/avatar-1.jpg",
         "avatarName": "Indra Kusuma",
         "avatarCompany": "Jenny Management"
       }
@@ -274,7 +274,7 @@
       "title": "Let’s Discuss Your Project",
       "subTitle": "Always available for freelancing if the right project comes along, Feel free to contact me."
     },
-    "contactImg": "/images/about-banner.png",
+    "contactImg": "./images/about-banner.png",
     "contactInfo": [
       { "title": "Write an e-mail", "email": "zalsujana07@gmail.com" },
       { "title": "write an Whatsapp ", "tel": "+62 xxxxxxxxx" }

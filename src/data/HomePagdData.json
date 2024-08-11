@@ -119,20 +119,7 @@
           "url": "https://ai.caren.id/"
         }
       },
-      {
-        "thumbUrl": "./images/popup-project-4.png",
-        "title": "Nextopup",
-        "subTitle": "Topup Game Terpercaya",
-        "details": {
-          "title": "Nextopup - Topup Game Terpercaya",
-          "description": "Nextopup is the go-to destination for gamers looking for a reliable and secure platform to purchase game items and credits. Our service caters to a wide range of popular games, offering everything from in-game currency to exclusive items, ensuring that gamers can enhance their gaming experience effortlessly. With a commitment to trust and customer satisfaction, Nextopup provides a seamless and user-friendly process for topping up your favorite games. Our platform is built on the latest React JS framework, delivering a responsive and intuitive interface that works flawlessly across both mobile and desktop devices. Based in Indonesia, Nextopup serves a global community of gamers, providing instant access to game top-ups anytime, anywhere. Whether you're looking to gain an edge in your favorite game or seeking rare items, Nextopup is your trusted partner in the gaming world.",
-          "type": "Website",
-          "langages": "JavaScript (JS), Cascading Style Sheets (CSS)",
-          "platform": "Developed using React JS, indicating a modern, responsive design likely optimized for both mobile and desktop devices.",
-          "country": "Indonesia",
-          "url": "https://react.nextopup.com/"
-        }
-      },
+     
       {
         "thumbUrl": "./images/popup-project-6.png",
         "title": "Kerjainsmm",
@@ -281,3 +268,4 @@
     ]
   }
 }
+

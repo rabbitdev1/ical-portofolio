@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ical-portofolio/static/css/main.57e3d9e1.css",
-    "main.js": "/ical-portofolio/static/js/main.99b6a496.js",
+    "main.js": "/ical-portofolio/static/js/main.d11ac6a8.js",
     "index.html": "/ical-portofolio/index.html",
     "main.57e3d9e1.css.map": "/ical-portofolio/static/css/main.57e3d9e1.css.map",
-    "main.99b6a496.js.map": "/ical-portofolio/static/js/main.99b6a496.js.map"
+    "main.d11ac6a8.js.map": "/ical-portofolio/static/js/main.d11ac6a8.js.map"
   },
   "entrypoints": [
     "static/css/main.57e3d9e1.css",
-    "static/js/main.99b6a496.js"
+    "static/js/main.d11ac6a8.js"
   ]
 }
